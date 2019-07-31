@@ -7,6 +7,7 @@ use App\Console\Commands\GroupTeamDecider;
 
 use App\Console\Commands\MatchDecider;
 use App\Console\Commands\PlayOneSet;
+use App\Console\Commands\VerifyItems;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -20,7 +21,8 @@ class Kernel extends ConsoleKernel
 	protected $commands = [
 		GroupTeamDecider::class,
 		MatchDecider::class,
-		PlayOneSet::class
+		PlayOneSet::class,
+		VerifyItems::class
 	];
 
 	/**
